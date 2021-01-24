@@ -1,14 +1,24 @@
 <?php
 
-function sentence($name) {
-    echo "<p>Hi my name is $name</p>";
-}
-sentence('Kyle');
-sentence('Mandi');
+$myName = "Kyle";
+$names = array('Kyle', 'Jib', 'Jab');
+$count = 0;
+
 ?>
 
+<p>Hi there, my name is <?php echo $names[1]; ?>.</p>
 
-<h1><?php bloginfo('name');?></h1>
+<?php while($count < count($names)) {
+    echo "<li>Hi my name is $names[$count]</li>";
+    $count++;
+}
+?>
 
-<h1><?php bloginfo('description');?></h1>
-
+<?php
+    while(have_posts()) {
+        the_post(); ?>
+        <h2><?php the_title();?></h2>
+        <?php the_content(); ?>
+        <hr>
+    <?php }
+?>
