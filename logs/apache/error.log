@@ -1,0 +1,4 @@
+AH00557: httpd: apr_sockaddr_info_get() failed for Kyles-MacBook-Pro.local
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 23 17:00:43.012894 2021] [mpm_event:notice] [pid 36148:tid 4437458432] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Jan 23 17:00:43.013951 2021] [core:notice] [pid 36148:tid 4437458432] AH00094: Command line: '/Users/wymerkd/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/wymerkd/Library/Application Support/Local/run/okdnpjm_Y/conf/apache/apache2.conf'
