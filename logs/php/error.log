@@ -44,3 +44,39 @@ Stack trace:
 #2 /Users/wymerkd/Local Sites/fictional-university/app/public/index.php(17): require('/Users/wymerkd/...')
 #3 {main}
   thrown in /Users/wymerkd/Local Sites/fictional-university/app/public/wp-content/themes/fiction-university-theme/index.php on line 19
+[24-Jan-2021 02:37:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php on line 173
+[24-Jan-2021 02:37:07 UTC] PHP Stack trace:
+[24-Jan-2021 02:37:07 UTC] PHP   1. {main}() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-cron.php:0
+[24-Jan-2021 02:37:07 UTC] PHP   2. do_action_ref_array() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-cron.php:138
+[24-Jan-2021 02:37:07 UTC] PHP   3. WP_Hook->do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[24-Jan-2021 02:37:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[24-Jan-2021 02:37:07 UTC] PHP   5. wp_version_check() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[24-Jan-2021 02:37:07 UTC] PHP   6. trigger_error() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:173
+[24-Jan-2021 02:37:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php on line 408
+[24-Jan-2021 02:37:24 UTC] PHP Stack trace:
+[24-Jan-2021 02:37:24 UTC] PHP   1. {main}() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-cron.php:0
+[24-Jan-2021 02:37:24 UTC] PHP   2. do_action_ref_array() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-cron.php:138
+[24-Jan-2021 02:37:24 UTC] PHP   3. WP_Hook->do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[24-Jan-2021 02:37:24 UTC] PHP   4. WP_Hook->apply_filters() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[24-Jan-2021 02:37:24 UTC] PHP   5. wp_version_check() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[24-Jan-2021 02:37:24 UTC] PHP   6. do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:254
+[24-Jan-2021 02:37:24 UTC] PHP   7. WP_Hook->do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[24-Jan-2021 02:37:24 UTC] PHP   8. WP_Hook->apply_filters() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[24-Jan-2021 02:37:24 UTC] PHP   9. wp_maybe_auto_update() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[24-Jan-2021 02:37:24 UTC] PHP  10. WP_Automatic_Updater->run() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:648
+[24-Jan-2021 02:37:24 UTC] PHP  11. wp_update_plugins() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:457
+[24-Jan-2021 02:37:24 UTC] PHP  12. trigger_error() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:408
+[24-Jan-2021 02:38:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php on line 612
+[24-Jan-2021 02:38:04 UTC] PHP Stack trace:
+[24-Jan-2021 02:38:04 UTC] PHP   1. {main}() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-cron.php:0
+[24-Jan-2021 02:38:04 UTC] PHP   2. do_action_ref_array() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-cron.php:138
+[24-Jan-2021 02:38:04 UTC] PHP   3. WP_Hook->do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/plugin.php:551
+[24-Jan-2021 02:38:04 UTC] PHP   4. WP_Hook->apply_filters() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[24-Jan-2021 02:38:04 UTC] PHP   5. wp_version_check() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[24-Jan-2021 02:38:04 UTC] PHP   6. do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:254
+[24-Jan-2021 02:38:04 UTC] PHP   7. WP_Hook->do_action() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/plugin.php:484
+[24-Jan-2021 02:38:04 UTC] PHP   8. WP_Hook->apply_filters() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[24-Jan-2021 02:38:04 UTC] PHP   9. wp_maybe_auto_update() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[24-Jan-2021 02:38:04 UTC] PHP  10. WP_Automatic_Updater->run() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:648
+[24-Jan-2021 02:38:04 UTC] PHP  11. wp_update_themes() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-admin/includes/class-wp-automatic-updater.php:468
+[24-Jan-2021 02:38:04 UTC] PHP  12. trigger_error() /Users/wymerkd/Local Sites/fictional-university/app/public/wp-includes/update.php:612
